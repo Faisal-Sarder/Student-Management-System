@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Form</title>
+    <link rel="stylesheet" href="loginstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="menu">
+            <nav>
+                <h1 class="logo">Smart <span class="fuck">Institute</span></h1>
+                <ul>
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="">Modules <i class="fas fa-caret-down"></i> </a>
+    
+                        <div class="dropdown">
+                            <ul>
+                                <li> <a href="#">Student Portal <i class="fas fa-caret-right"></i></a>
+                                    <div class="dropdown-1">
+                                        <ul>
+                                            <li> <a href="#">Attendance</a></li>
+                                            <li> <a href="#">Results</a></li>
+                                            <li> <a href="#">Registered Courses</a></li>
+                                            <li> <a href="#">Library</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li> <a href="#">Academics</a></li>
+                                <li> <a href="#">Admissions</a></li>
+                                <li> <a href="#">Notices</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li> <a href="">Features</a> </li>
+                    <li> <a href="">About</a> </li>
+                    <li> <a href="">Contact</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-1">
+            <div class="wrapper">
+                <form action="">
+                    <h1>Login</h1>
+                        <div class="input-box">
+                            <input type="text" placeholder="Username" required>
+                            <i class='bx bxs-user'></i>
+                        </div>
+                        <div class="input-box">
+                            <input type="password" placeholder="Password" required>
+                            <i class='bx bxs-lock-alt'></i>
+                        </div>
+            
+                        <div class="forget">
+                            <label><input type="checkbox">Remember me</label>
+                            <a href="#">Forget password?</a>
+                        </div>
+                        <button type="submit" class="btn">Login</button>
+                        <div class="register">
+                            <p>Don't have an account? <a href="#">Register</a></p>
+                        </div>       
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
