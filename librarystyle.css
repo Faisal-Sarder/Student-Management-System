@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/library.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.logo{
+    color: white;
+    font-size: 28px;
+    
+}
+.fuck{
+    color: #ea1538;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 0px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #ea1538;
+    transition: 0.3s;
+}
+.dropdown{
+    display: none;
+}
+nav ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+}
+.dropdown ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown ul li{
+    width: 150px;
+    padding: 10px;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+}
+.dropdown-1{
+    display: none;
+}
+.dropdown ul li:hover .dropdown-1{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: var(--color-black);
+}
+.facilities-col{
+    width: 90%;
+    color: white;
+    left: 50%;
+    top: 60%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.facilities-col h1{
+    font-size: 50px;
+}
+.facilities-col p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.button:hover{
+    border: 1px solid white;
+    background: white;
+    color: orange;
+    transition: 0.5s;
+}
