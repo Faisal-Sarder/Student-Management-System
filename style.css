@@ -15,13 +15,14 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-top: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .logo{
     color: white;
     font-size: 28px;
+    
 }
 .fuck{
     color: #ea1538;
@@ -30,7 +31,7 @@ nav ul li{
     list-style: none;
     display: inline-block;
     position: relative;
-    padding: 10px 20px;
+    padding: 0px 25px;
 }
 nav ul li a{
     text-decoration: none;
@@ -46,7 +47,7 @@ nav ul li a:hover{
     border: none;
     background: #ea1538;
     padding: 8px 12px;
-    border-radius: 10px;
+    border-radius: 2px;
     color: white;
     font-size: 15px;
     font-weight: bold;
@@ -62,7 +63,7 @@ nav ul li a:hover{
     width: 90%;
     color: white;
     left: 50%;
-    top: 60%;
+    top: 75%;
     position: absolute;
     transform: translate(-50%, -50%);
     text-align: center;
